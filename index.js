@@ -5,7 +5,7 @@ const port = process.env.PORT||5000;
 
 
 //  Middleware
-
+// app.get(cors());
 
 
 
@@ -15,5 +15,5 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(port,()=>{
-      console.log(`Happy Life want to all people like rich and poor ${port}`)
+      console.log(`Happy Life ${port}`)
 })
