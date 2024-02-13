@@ -2,11 +2,11 @@ const express = require ('express')
 const app = express()
 const cors = require ("cors")
 const port = process.env.PORT||5000;
-
+"development line check in line 5"
 
 //  Middleware
-// app.get(cors());
-
+// app.get(cors()
+"this is a new line in line no 9 without conflict"
 
 
 
